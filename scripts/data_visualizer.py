@@ -245,7 +245,7 @@ class DataVisualizer:
     
     def plot_purchase_value_vs_delay(self):
         """
-        Plots the relationship between purchase value and purchase delay.
+        Plots the relationship between the purchase value and purchase delay.
         """
         try:
             self.logger.info("Plotting the relationship between purchase value and purchase delay.")
