@@ -205,8 +205,7 @@ class DataVisualizer:
                           color_discrete_map={0: 'lightblue', 1: 'red'},
                           title="Source, Browser, and Class Hierarchy")
         fig.show()
-    
-    
+   
     def plot_purchase_delay_distribution(self):
         """
         Plots the distribution of purchase delays (time between signup and purchase).
