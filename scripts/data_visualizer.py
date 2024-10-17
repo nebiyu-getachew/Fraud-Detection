@@ -196,16 +196,7 @@ class DataVisualizer:
         sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', linewidths=0.5)
         plt.title('Correlation Matrix Including Target Variable')
         plt.show()
-
-    def plot_sunburst_chart(self):
-        """
-        Visualizes a sunburst chart for source, browser, and class hierarchy using Plotly.
-        """
-        fig = px.sunburst(self.fraud_data, path=['source', 'browser', self.target_col], color=self.target_col,
-                          color_discrete_map={0: 'lightblue', 1: 'red'},
-                          title="Source, Browser, and Class Hierarchy")
-        fig.show()
-   
+  
     def plot_purchase_delay_distribution(self):
         """
         Plots the distribution of purchase delays (time between signup and purchase).
