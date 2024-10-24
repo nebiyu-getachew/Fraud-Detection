@@ -103,8 +103,6 @@ class ModelExplainer:
         plt.title(f'SHAP Dependence Plot for Feature: {self.X_test.columns[0]}')
         plt.show()
 
-
-
     def explain_with_lime(self, instance_idx=0):
         """
         Generate LIME Feature Importance Plot for a single instance of the dataset.
