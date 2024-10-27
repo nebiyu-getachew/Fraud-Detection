@@ -1,4 +1,3 @@
-```markdown
 # Fraud Detection System
 
 ## Overview
@@ -67,4 +66,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 - Kaggle for datasets: [Credit Card Fraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 - Analytics Vidhya and DataCamp for educational resources.
-```
