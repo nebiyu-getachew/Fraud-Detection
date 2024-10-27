@@ -50,6 +50,22 @@ On different terminal run the following:
 python dashboard_app.py
 ```
 
+# Fraud Detection Dashboard
+
+## Visualizations
+
+### Total Transactions, Fraud cases, Fraud percentage, and Fraud Cases Overtime
+
+![Total Transactions, Fraud cases, Fraud percentage, and Fraud Cases Overtime](/Dashboard/total_transactions_fraud_cases_and_fraud_percentages.png)
+
+### Fraud by Location
+
+![Fraud by Location](/Dashboard/geographically.png)
+
+### Top Devices and Top Browsers by Fraud Cases
+
+![Top Devices and Top Browsers by Fraud Cases](/Dashboard/bar_chart.png)
+
 ## API Usage
 
 Details on how to interact with the API once the application is running.
